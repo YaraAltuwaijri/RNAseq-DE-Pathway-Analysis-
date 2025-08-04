@@ -1,20 +1,20 @@
-  ##RNA-seq Differential Expression and Pathway Analysis
-This project involved a complete RNA-seq analysis workflow to identify and interpret transcriptional changes between control and treated samples in human T cells. 
+## RNA-seq Differential Expression and Pathway Analysis  
+This project involved a complete RNA-seq analysis workflow to identify and interpret transcriptional changes between control and treated samples in human T cells.
 
-  ##Overview 
+## Overview  
 The goal of this analysis was to reproduce and extend the original findings from an RNA-seq study examining the effect of IL-27 on T cell activation. The pipeline includes preprocessing, quality control, alignment, quantification, normalization, differential gene expression, and pathway enrichment analysis.
 
-  ##Objectives 
--Build a complete RNA-seq analysis pipeline using R and shell scripting.
--Identify differentially expressed genes (DEGs) between control and treatment groups.
--Interpret enriched biological pathways associated with IL-27 stimulation.
--Compare findings with the original study results and highlight novel insights.
+## Objectives  
+- Build a complete RNA-seq analysis pipeline using R and shell scripting.  
+- Identify differentially expressed genes (DEGs) between control and treatment groups.  
+- Interpret enriched biological pathways associated with IL-27 stimulation.  
+- Compare findings with the original study results and highlight novel insights.  
 
-  ##Tools & Technologies 
--Tools: FastQC, STAR, SAMtools, featureCounts, DESeq2, clusterProfiler.
--Data Sources: Public RNA-seq datasets (ENA), gene annotation from Ensembl.
--Environment: Linux, command-line interface.
-
+## Tools & Technologies  
+- Tools: FastQC, STAR, SAMtools, featureCounts, DESeq2, clusterProfiler.  
+- Data Sources: Public RNA-seq datasets (ENA), gene annotation from Ensembl.  
+- Environment: Linux, command-line interface.
+  
   ## Pipeline Components
 1. **Sample Download**  
    Automated download of raw FASTQ files from ENA.
